@@ -207,7 +207,7 @@ li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/final/images/leighs.jpg);
+    background-image: url(/LC/images/leighs.jpg);
     background-position: center;
     background-size: cover;
     filter: blur(11px); 
@@ -429,7 +429,7 @@ li a:hover {
 
 #menu-bg {
     position: relative;
-    background-image: url(/final/images/pogi.jpg);
+    background-image: url(/LC/images/pogi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -724,7 +724,7 @@ li a:hover {
   /* <!-- == OOOORRRDDEERR == --> */
   
   #cus {
-    background-image: url(/final/images/lightbrown.webp);
+    background-image: url(/LC/images/lightbrown.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
