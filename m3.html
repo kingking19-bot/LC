@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="design/style.css" />
+  <link rel="stylesheet" href="design/responsive.css" />
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="king.js"></script>
+  <title>Leigh's Cakeshop MENU</title>
+</head>
+<body id="menu-bg">
+
+  <!-- == NAVBAR == -->
+  <nav class="navbar">
+    <h1 class="logo">Leigh's Cakeshop</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="menu.html">Menu</a>
+        <ul class="dropdown">
+          <li><a href="m1.html">Breakfast</a></li>
+          <li><a href="m2.html">Milk Tea</a></li>
+          <li><a href="m3.html">Cake</a></li>
+          <li><a href="m4.html">Frappe</a></li>
+        </ul>
+      </li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="webm.html">About Us</a></li>
+    </ul>
+    <img src="images/menubtn.png" class="menu-btn" alt="Menu">
+  </nav>
+
+  <div class="menu-column">
+    <h4>CA<span>KE</span></h4>
+
+    <div class="single-menu">
+        <img src="../final/images/strawberry cake.jpg" alt="Strawberry Cake">
+        <div class="menu-content">
+            <h5>Strawberry Cake</h5>
+            <p><span>Php 500</span></p>
+            
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/mangocustardcake.webp" alt="Mango Custard Cake">
+        <div class="menu-content">
+            <h5>Mango Custard Cake</h5>
+            <p><span>Php 250</span></p>
+            
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/carrotcake.jpg" alt="Carrot Cake">
+        <div class="menu-content">
+            <h5>Carrot Cake</h5>
+            <p><span>Php 350</span></p>
+           
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/chocolatecaramelcake.jpg" alt="Chocolate Caramel">
+        <div class="menu-content">
+            <h5>Chocolate Caramel</h5>
+            <p><span>Php 400</span></p>
+            
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/redvelvet.jpg" alt="Red Velvet Cake">
+        <div class="menu-content">
+            <h5>Red Velvet Cake</h5>
+            <p><span>Php 399</span></p>
+            
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/yema cake.jpg" alt="Yema Cake">
+        <div class="menu-content">
+            <h5>Yema Cake</h5>
+            <p><span>Php 199</span></p>
+            
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/ubelecheflancake.jpg" alt="Ube Leche Flan Cake">
+        <div class="menu-content">
+            <h5>Ube Leche Flan Cake</h5>
+            <p><span>Php 500 </span></p>
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/lemoncake.jpeg" alt="Lemon Cake">
+        <div class="menu-content">
+            <h5>Lemon Cake</h5>
+            <p><span>Php 289</span></p>
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/blueberrycheesecake.jpg" alt="Blueberry Cheese Cake">
+        <div class="menu-content">
+            <h5>Blueberry Cheese Cake</h5>
+            <p><span>Php 350</span></p>
+            
+        </div>
+    </div>
+
+    <div class="single-menu">
+        <img src="../final/images/strawberrycheesecake.jpg" alt="Strawberry Cheesecake">
+        <div class="menu-content">
+            <h5>Strawberry Cheesecake</h5>
+            <p><span>Php 150</span></p>
+            
+        </div>
+    </div>
+</div>
+
+<!-- Modal Popup -->
+<div id="itemModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImg" src="" alt="Milk Tea" />
+    <h2 id="modalTitle">Item Title</h2>
+    <p id="modalSize">Php 90 for 16oz. | Php 100 for 22oz.</p>
+  </div>
+</div>
+
+</body>
+</html>

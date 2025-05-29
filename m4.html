@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="design/style.css" />
+  <link rel="stylesheet" href="design/responsive.css" />
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="king.js"></script>
+  <title>Leigh's Cakeshop MENU</title>
+</head>
+<body id="menu-bg">
+
+  <!-- == NAVBAR == -->
+  <nav class="navbar">
+    <h1 class="logo">Leigh's Cakeshop</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="menu.html">Menu</a>
+        <ul class="dropdown">
+          <li><a href="m1.html">Breakfast</a></li>
+          <li><a href="m2.html">Milk Tea</a></li>
+          <li><a href="m3.html">Cake</a></li>
+          <li><a href="m4.html">Frappe</a></li>
+        </ul>
+      </li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="webm.html">About Us</a></li>
+    </ul>
+    <img src="images/menubtn.png" class="menu-btn" alt="Menu">
+  </nav>
+
+  <div class="menu-column">
+    <h4>FRA<span>PPE</span></h4>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/cremebrulee.webp" alt="Winter Melon"></a>
+      <div class="menu-content">
+        <h5>Creme Brulee</h5>
+        <p><span>Php 159</span></p>
+        
+      </div>  
+    </div>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/Vanilla_Latte.jpg" alt="Okinawa"></a>
+      <div class="menu-content">
+        <h5>Vanilla latte</h5>
+        <p><span>Php 129</span></p>
+        
+      </div>
+    </div>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/salted caramel macchiato.jpg" alt="Matcha"></a>
+      <div class="menu-content">
+        <h5>Salted Caramel Macchiato</h5>
+        <p><span>Php 175</span></p>
+        
+      </div>
+    </div>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/Cappuccino_in_original.jpg" alt="Taro"></a>
+      <div class="menu-content">
+        <h5>Cappuccino</h5>
+        <p><span>Php 130</span></p>
+        
+      </div>
+    </div>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/salted caramel.jpg" alt="Salted Caramel"></a>
+      <div class="menu-content">
+        <h5>Salted Caramel</h5>
+        <p><span>Php 115</span></p>
+      </div>
+    </div>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/cafelatte.jpg" alt="Mango"></a>
+      <div class="menu-content">
+        <h5>Cafe Latte</h5>
+        <p><span>Php 99</span></p>
+        
+      </div>
+    </div>
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/hazelnut latte.jpg" alt="Blueberry"></a>
+      <div class="menu-content">
+        <h5>Hazelnut Latte</h5>
+        <p><span>Php 225</span></p>
+       
+      </div>
+    </div>
+
+   
+
+    <div class="single-menu">
+      <a href="#"><img src="../final/images/CAFEMOCHA.jpg" alt="Hokkaido"></a>
+      <div class="menu-content">
+        <h5>Cafe Mocha</h5> 
+        <p><span>Php 125</span></p>
+      </div>
+    </div>
+
+    <div class="single-menu">
+      <img src="../final/images/more drinks.jpg" alt="More Drinks">
+      <div class="menu-content">
+        <h5>More Frappe</h5>
+        <div class="dropdown-content">
+          <a href="https://web.facebook.com/photo/?fbid=839900071507221&set=pcb.839900184840543">
+            <button class="dropbtn">More Menus</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal Popup -->
+<div id="itemModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImg" src="" alt="Milk Tea" />
+    <h2 id="modalTitle">Item Title</h2>
+    <p><span>Php 90  </span></p>
+    <p><span>Php 100 </span></p>
+  </div>
+</div>
+
+</body>
+</html>
